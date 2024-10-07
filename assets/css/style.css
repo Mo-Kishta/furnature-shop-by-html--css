@@ -1,0 +1,273 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: 5px auto;
+    text-align: center;
+}
+header {
+    background-color: #c8c2b6;
+    margin: 0 5px;
+}
+.nav-bar {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+}
+.nav-bar h2 {
+    font-weight: 100;
+}
+.links a {
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+}
+.img1 {
+    width: 20px;
+}
+.img2 {
+    width: 20px;
+}
+.img3 {
+    width: 20px;
+}
+button {
+    cursor: pointer;
+}
+.btn1 {
+    background-color: #968c83;
+    border: transparent;
+    border-radius: 3px;
+    padding: 10px 30px;
+    font-size: 11px;
+    /* width: 115px; */
+    color: white;
+}
+.head-cont {
+    display: flex;
+    justify-content: space-evenly;
+}
+.text-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.price {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    color: #4f4b3f;
+}
+.p1 {
+    color: #a49e92;
+}
+.sale-bro {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding-top: 50px;
+}
+.head-cont h1 {
+    width: 300px;
+    font-size: 43px;
+    color: #4f4b3f;
+}
+.head-cont h3 {
+    width: 310px;
+    font-size: 16px;
+    color: #4f4b3f;
+}
+.head-cont img {
+    width: 400px;
+    height: inherit;
+}
+.sale-cont1 {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.text-sale {
+    display: flex;
+    flex-direction: column;
+    align-items:start;
+    gap: 10px;
+    margin-top: 30px;
+}
+.text-sale button {
+    border: 1px solid black;
+    font-size: 10px;
+    padding: 3px 10px;
+    border-radius: 3px;
+}
+.sale1 {
+    display: flex;
+    flex-direction: row;
+    background-color: #f1f0ec;
+    gap: 50px;
+    padding: 0 20px;
+}
+.sale1 img {
+    width: 150px;
+}
+.sale2 img {
+    width: 150px;
+}
+.sale2 {
+    display: flex;
+    flex-direction: row;
+    background-color: #f1f0ec;
+    gap: 50px;
+    padding: 0 20px;
+}
+.sale3 {
+    display: flex;
+    flex-direction: row;
+    background-color: #f1f0ec;
+    gap: 50px;
+    padding: 0 60px;
+}
+.text-sale2 {
+    display: flex;
+    flex-direction: column;
+    align-items:start;
+    gap: 10px;
+    margin-top: 30px;
+}
+.sale-cont2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+.text-sale2 button {
+    border: 1px solid black;
+    font-size: 10px;
+    padding: 3px 10px;
+    border-radius: 3px;
+}
+.sale3 img {
+    width: 150px;
+}
+.sale4 {
+    display: flex;
+    gap: 15px;
+}
+.sale4-ss {
+    background-color: #f1f0ec;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.sale4-sc {
+    background-color: #f1f0ec;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 0 25px;
+}
+.sale4-ss img {
+    width: 155px;
+    padding-left: 35px;
+}
+.sale4-sc img {
+    width: 155px;
+    padding-left: 35px;
+}
+.New-tre {
+    padding: 50px 0;
+}
+.New-tre h1 {
+    padding-bottom: 20px;
+    color: #b9b9b9;
+}
+.New-tre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main-new1 {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.new-img img{
+    width: 200px;
+}
+.new-img {
+    height: 220px;
+    background-color: #f6f6f6;
+}
+.new1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.new-text {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.new-text .s {
+    color: #969590;
+}
+.new-img2 img {
+    width: 200px;
+    height: 220px;
+}
+.new-img2 {
+    background-color: #f6f6f6;
+}
+.new33 {
+    padding-top: 20px;
+}
+.blog h1 {
+    color: #c5c5c5;
+    text-decoration: line-through;
+    font-size: 50px;
+    font-weight: 100;
+    padding: 20px;
+}
+.blog {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+.bog-img img {
+    width: 250px;
+    height: 220px;
+    padding-left: 10px;
+}
+.prag {
+    color: #9f9f9f;
+}
+
+
+
+
+
+
+
+
+@media (min-width: 1024px) {
+    .nav-bar {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .links {
+        display: flex;
+        gap: 10px;
+    }
+    .imgs {
+        display: flex;
+        gap: 10px;
+    }
+    
+}
